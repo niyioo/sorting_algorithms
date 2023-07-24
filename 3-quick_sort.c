@@ -17,6 +17,7 @@ void swap(int *a, int *b)
  * partition - Lomuto partition scheme for Quick sort
  *
  * @array: The array to be partitioned
+ * @size: The size of the array
  * @low: Starting index of the partition
  * @high: Ending index of the partition
  *
@@ -51,6 +52,7 @@ int partition(int *array, size_t size, int low, int high)
  * quick_sort_recursive - Recursive Quick sort function
  *
  * @array: The array to be sorted
+ * @size: The size of the array
  * @low: Starting index of the array to be sorted
  * @high: Ending index of the array to be sorted
  */
